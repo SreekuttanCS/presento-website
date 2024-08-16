@@ -1,0 +1,222 @@
+b* {
+  padding: 0;
+  margin: 0;
+}
+.banner {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.572),
+      rgba(0, 0, 0, 0.71)
+    ),
+    url("hero-bg.jpg");
+  background-size: cover;
+  height: 900px;
+}
+.item1 img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100);
+  opacity: 0.5;
+  object-fit: cover;
+}
+.item1 img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: red !important;
+}
+.tilt-section {
+  transform: skewY(-3deg);
+  height: fit-content;
+  padding-block: 3rem;
+}
+.tilt-inside {
+  transform: skewY(3deg);
+  height: fit-content;
+  padding-block: 3rem;
+}
+.data-box2 {
+  box-shadow: 0px 0px 19px -4px rgba(0, 0, 0, 0.265);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+.data-box1 {
+  box-shadow: 0px 0px 19px -4px rgba(0, 0, 0, 0.265);
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+.stat {
+  margin-top: 100px;
+}
+.underline {
+  height: 5px;
+  width: 80px;
+  background-color: red;
+}
+.shadows {
+  box-shadow: 0px 0px 19px -4px rgba(0, 0, 0, 0.282);
+}
+.tab-selector {
+  width: 100%;
+}
+.button-selector {
+  border: 0.5px solid grey !important;
+  color: black !important;
+}
+.button-selector:hover {
+  border: 1px solid red !important;
+}
+.button-selector.active {
+  color: white !important;
+  border: 1px solid red !important;
+  background-color: red !important;
+}
+.banner-head {
+  font-size: 50px;
+}
+.navtab.active {
+  color: red !important;
+}
+.navtab:hover {
+  color: red !important;
+}
+.hover-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.hover-port {
+  display: none;
+}
+.hover-section:hover .hover-img {
+  transform: scale(1.05);
+  filter: brightness(50%);
+  transition: 0.5s;
+}
+.hover-section:hover .hover-port {
+  position: absolute;
+  display: flex;
+}
+.pricing-item {
+  height: 500px;
+}
+.pricing-item ul {
+  list-style: none;
+}
+.bg-grey {
+  background-color: #353535;
+}
+.price-middle {
+  transform: scale(1.12);
+}
+.price {
+  height: fit-content;
+  padding-block: 3rem;
+}
+.accordion-button.active {
+  color: red !important;
+}
+.bg-gray {
+  background: #353535;
+}
+.fs-small {
+  font-size: 15px;
+}
+.teams {
+  height: fit-content;
+  padding-block: 3rem;
+}
+.team {
+  border-color: black 1px solid;
+}
+.team-detail {
+  width: 100%;
+}
+.hover-icon {
+  position: absolute;
+  bottom: 80px;
+  display: none;
+  left: 50%;
+  transform: translate(-50%);
+  gap: 10px;
+}
+.icon {
+  background-color: #958b8b;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+}
+.icon:hover {
+  background-color: #e03a3c;
+}
+.hover-section:hover .hover-icon {
+  display: flex;
+}
+.contact-icon {
+  padding: 8px 10px;
+  border: 2px dotted red;
+  border-radius: 50%;
+}
+.contact-shadow {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.contact-input::placeholder {
+  color: rgb(29, 27, 27);
+}
+.contact-input {
+  border: 1px solid rgb(225, 212, 212);
+}
+.forms {
+  height: 327px;
+  padding: 20px;
+}
+.social-icon {
+  padding: 8px 10px;
+}
+.social-icon:hover {
+  color: #e03a3c !important;
+  border-color: #e03a3c !important;
+  transition: 0.5s;
+}
+.useful ul {
+  list-style: none;
+}
+
+.hover-red:hover {
+  color: #e03a3c !important;
+  transition: 0.5s;
+}
+.service-box {
+  background-color: #353535 !important;
+}
+.service-box:hover {
+  background-color: #333131 !important;
+}
+
+.animation-first {
+  animation: first duration timing-function delay iteration-count direction
+    fill-mode;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  color: red !important;
+}
